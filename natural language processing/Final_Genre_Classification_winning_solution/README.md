@@ -14,5 +14,5 @@ This project implements a machine learning model to classify text data into mult
 - Libraries: `pandas`, `numpy`, `scikit-learn`, `nltk`, `tensorflow`/`pytorch` (for deep learning models)
 
 ## LeaderBoard
-![LEADERBOARD]([path_to_image/image_name.jpeg](natural language processing/Final_Genre_Classification_winning_solution/leaderboard.png)
+![LEADERBOARD]([natural language processing/Final_Genre_Classification_winning_solution/leaderboard.png])
 
