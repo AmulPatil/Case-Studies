@@ -14,5 +14,5 @@ This was Hackathon competition which implements a machine learning model to clas
 - Libraries: `pandas`, `numpy`, `scikit-learn`, `nltk`,`xgboost`
 
 ## LeaderBoard
-[images/natural language processing/Final_Genre_Classification_winning_solution/leaderboard.png](https://github.com/AmulPatil/Case-Studies/blob/master/natural%20language%20processing/Final_Genre_Classification_winning_solution/leaderboard.png))
+[images/natural language processing/Final_Genre_Classification_winning_solution/leaderboard.png](https://github.com/AmulPatil/Case-Studies/blob/master/natural%20language%20processing/Final_Genre_Classification_winning_solution/leaderboard.png)
 
