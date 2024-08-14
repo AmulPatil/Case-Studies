@@ -6,7 +6,7 @@ This project implements a machine learning model to classify text data into mult
 ## Features
 - **Text Preprocessing:** Tokenization, stopword removal, stemming/lemmatization, and text vectorization (e.g., TF-IDF, Word2Vec).
 - **Modeling:** Includes machine learning algorithms like Logistic Regression, SVM, Random Forest, and deep learning models such as LSTM or BERT.
-- **Evaluation:** Model performance is evaluated using metrics like accuracy, precision, recall, and F1-score.
+- **Evaluation:** Model performance is evaluated using metrics like mlogloss.
 - **Hyperparameter Tuning:** Use of GridSearchCV or RandomizedSearchCV to optimize model parameters.
 
 ## Prerequisites
