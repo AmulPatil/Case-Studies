@@ -1,7 +1,7 @@
 # Movie Genre Classification
 
 ## Overview
-This project implements a machine learning model to classify text data into multiple categories. The goal is to accurately predict the category or label for a given text input based on training data.
+This was Hackathon competition which implements a machine learning model to classify text data into multiple categories. The goal is to accurately predict the category or label for a given text input based on training data.
 
 ## Features
 - **Text Preprocessing:** Tokenization, stopword removal, stemming/lemmatization, and text vectorization (e.g., TF-IDF).
