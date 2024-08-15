@@ -20,7 +20,7 @@ dag = DAG(
 
 fetch_and_insert_task = PythonOperator(
     task_id='fetch_and_insert_data_into_MYSQL',
-    python_callable=fetch_and_insert_data,
+    python_callable=data_collector,
     dag=dag,
 )
 
