@@ -8,7 +8,6 @@ from sqlalchemy import create_engine, text
 import time
 dir_name = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-print(dir_name)
 config = ConfigParser()
 config.read('./config.ini')
 
@@ -22,7 +21,7 @@ PORT = config.get('Credentials','mysql_port')
 DATABASE = config.get('Credentials','mysql_database')
 TABLE = config.get('Credentials','mysql_table')
 
-def dump_mysql(df):
+def dump_mysql(df: pd.DataFrame) -> None:
     mysql_engine = create_engine(f'mysql+mysqlconnector://{USER}:{PASSWORD}@{HOST}:{PORT}/')
     
     with mysql_engine.connect() as connection:
@@ -33,7 +32,7 @@ def dump_mysql(df):
     df.to_sql('mandi_price', con=mysql_engine, if_exists='append', index=False)
 
 
-def column_renamer(df_all):
+def column_renamer(df_all: pd.DataFrame) -> pd.DataFrame:
     df_all.columns = map(str.lower, df_all.columns)
     
     # Use regex to find columns with 'min', 'max', or 'mode' substring
