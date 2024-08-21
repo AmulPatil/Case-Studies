@@ -55,5 +55,3 @@ In the future, we plan to enhance this pipeline with product forecasting capabil
 
 This pipeline automates the ingestion of API data into a MySQL database using Apache Airflow, providing a reliable and scalable solution for data management. Future enhancements will focus on leveraging this data for predictive analytics and product forecasting.
 
-
-This README provides a clear outline of the project setup and future work, helping users understand how to implement and extend the pipeline.
