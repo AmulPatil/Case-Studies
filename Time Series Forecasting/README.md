@@ -24,23 +24,8 @@ Before setting up the pipeline, ensure the following are in place:
 
 Create an Apache Airflow Directed Acyclic Graph (DAG) to automate the data ingestion process. The DAG will:
 
-1. **Fetch Data**: Connect to the external API and retrieve data.
-2. **Transform Data**: Prepare data for insertion into the database.
-3. **Load Data**: Insert the data into the MySQL database.
-
-### **3. Configure Airflow Connections**
-
-- **MySQL Connection**: Set up a connection in Airflow for accessing the MySQL database.
-- **API Connection**: Configure any necessary connection details for the API.
-
-### **4. Create Airflow Tasks**
-
-Implement the following tasks within your DAG:
-
-- **API Data Fetching**: A task to request data from the API.
-- **Data Transformation**: A task to clean and format the data.
-- **Data Insertion**: A task to insert the data into the MySQL database.
-
+1.Start the script daily at set time.
+2.Script will fetch the data ,rewrite the schema and ingest/put the data into mysql.
 ## **Future Work**
 
 ### **Product Forecasting**
