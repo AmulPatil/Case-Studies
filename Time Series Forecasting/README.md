@@ -24,8 +24,8 @@ Before setting up the pipeline, ensure the following are in place:
 
 Create an Apache Airflow Directed Acyclic Graph (DAG) to automate the data ingestion process. The DAG will:
 
-1.Start the script daily at set time.
-2.Script will fetch the data ,rewrite the schema and ingest/put the data into mysql.
+1.Start the script daily at set time.\
+2.Script will fetch the data ,rewrite the schema and ingest/put the data into mysql.\
 ## **Future Work**
 
 ### **Product Forecasting**
