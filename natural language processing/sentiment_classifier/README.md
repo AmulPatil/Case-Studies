@@ -18,7 +18,6 @@ This table provides a summary of the accuracy achieved by different models on th
 | Custom-transformer         | 85.60%        | Preprocessing:raw input data   |
 
 
-*Note:* The accuracy values are based on the evaluation using `model.evaluate`.
 
 
 Integration with DVC(data versioning) & DAGHUBS(MLflow) to track experiments:https://github.com/AmulPatil/mlops_sentiment_analysis
