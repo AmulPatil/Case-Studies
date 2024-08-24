@@ -11,11 +11,11 @@ This table provides a summary of the accuracy achieved by different models on th
 
 | Model                     |  Test Accuracy | Notes                            |
 |---------------------------|---------------|----------------------------------|
+| Custom-transformer         | 85.60%        | Preprocessing:raw input data   |
 | LinearSVC                 |  86.76%       | Preprocessing:countvectorizer after cleaning data |
 | LinearSVC                 | 87.36%        | Preprocessing:Stemming & lemmatizing after cleaning data |
 | LinearSVC                 | 89.84%        | Preprocessing:ngram with n being 3   |
 | LinearSVC                 | 90.064%        | Preprocessing:TFIDF after cleaning data   |
-| Custom-transformer         | 85.60%        | Preprocessing:raw input data   |
 
 
 
